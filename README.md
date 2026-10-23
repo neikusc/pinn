@@ -19,19 +19,19 @@ Automatic differentiation supplies the spatial derivatives. Each notebook compar
 
 [`finite_square_well_central_wall_PINN.ipynb`](finite_square_well_central_wall_PINN.ipynb) models a well of half-width 1.7 with a thin finite barrier at the center. It searches even and odd states and compares energies, wave functions, and training losses.
 
-![1D finite well with a central wall: PINN results](finite_square_well_central_wall_PINN_results.png)
+![1D finite well with a central wall: PINN results](images/finite_square_well_central_wall_PINN_results.png)
 
 
 ### 2. Two-dimensional finite square well with central walls
 
 [`finite_square_well_2d_central_walls_PINN.ipynb`](finite_square_well_2d_central_walls_PINN.ipynb) uses the separable potential $V(x,y)=V_1(x)+V_1(y)$, creating crossed central barriers. It searches four parity classes and checks against products of 1D reference states. The image below shows the potential.
 
-![Wave functions of particle in 2D finite square well with crossed central walls](finite_square_well_2d_central_walls_PINN_results.png)
+![Wave functions of particle in 2D finite square well with crossed central walls](images/finite_square_well_2d_central_walls_PINN_results.png)
 
 ### 3. Two-dimensional triangular finite well
 
 [`triangular_finite_well_PINN.ipynb`](triangular_finite_well_PINN.ipynb) uses a triangular interior with vertices $(-1.7,0)$, $(0,1.7)$, and $(1.7,0)$ and a finite exterior barrier. It searches both $x$-parities and compares against a 2D finite-difference solution.
 
-![Triangular finite well: PINN, reference, and absolute error](triangular_finite_well_PINN_results.png)
+![Triangular finite well: PINN, reference, and absolute error](images/triangular_finite_well_PINN_results.png)
 
 The PNG files illustrate these examples. Open a notebook and run its cells in order to train and inspect the results.
